@@ -168,9 +168,9 @@ document.addEventListener('DOMContentLoaded', () => {
     gsap.registerPlugin(ScrollTrigger);
 
     // Hero entrance suave
-    gsap.from('.hero-portrait-wrap', {
+    gsap.from('.hero-portrait-frame', {
       opacity: 0,
-      scale: 0.92,
+      scale: 0.95,
       duration: 1,
       ease: 'power3.out'
     });
@@ -229,11 +229,11 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-    // Location Card
-    if (document.querySelector('.location-card')) {
-      gsap.from('.location-card', {
+    // Location Grid
+    if (document.querySelector('.location-grid')) {
+      gsap.from('.location-grid', {
         scrollTrigger: {
-          trigger: '.location-card',
+          trigger: '.location-grid',
           start: 'top 80%',
           once: true
         },
@@ -245,3 +245,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+
