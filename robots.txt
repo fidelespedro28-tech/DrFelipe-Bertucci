@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drfelipebertucci.com.br/sitemap.xml

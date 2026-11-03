@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#162E66"/>
+      <stop offset="100%" stop-color="#2E6BFF"/>
+    </linearGradient>
+    <linearGradient id="irisGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B8CFF"/>
+      <stop offset="100%" stop-color="#E8E0D0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)"/>
+  <!-- Ophthalmic Iris / Visual Freedom Stylized Symbol -->
+  <path d="M12 32 C 18 20, 46 20, 52 32 C 46 44, 18 44, 12 32 Z" fill="none" stroke="#FBF9F5" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="8" fill="none" stroke="url(#irisGrad)" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="3.5" fill="#FBF9F5"/>
+  <circle cx="34" cy="30" r="1.2" fill="#2E6BFF"/>
+  <!-- Laser Beam Accent -->
+  <line x1="32" y1="17" x2="32" y2="21" stroke="#5B8CFF" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
